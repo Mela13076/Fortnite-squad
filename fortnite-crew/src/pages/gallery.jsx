@@ -37,7 +37,7 @@ function Gallery(){
                 characters && characters.length > 0 ? characters.map((character) => (
                     <div className="charactersPage" key={character.id}>
                         <h3>
-                            <Link to={`/edit/${character.id}`}>{character.nickname}</Link>
+                            <Link to={`/info/${character.id}`}>{character.nickname}</Link>
                         </h3>
                         <p>Level: {character.level}</p>
                         <p>Character: {character.character}</p>
