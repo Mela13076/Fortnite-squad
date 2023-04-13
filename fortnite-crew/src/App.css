@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home{
+  color: black;
+}
+
+.sideNav{
+  height: 100%;
+  width: 12%;
+  position: fixed;
+  font-size: larger;
+  font-weight: bolder;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+a:any-link {
+  color: white;
+  cursor: auto;
+  text-decoration-line: none;
+}
+
+.sideNav a{
+  padding-top: 20px;
+  
+}
+
+.content{
+  margin-left: 100px;
+}
+
+/* Section for creating character page */
+
+.create{
+  flex: display;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.mini-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+/* Section for gallery page */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.charactersPage {
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 400px;
+}
+
+.charactersPage h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.charactersPage h3 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.charactersPage a {
+  display: block;
+  margin-top: 8px;
+}
+
+.gallery a:hover{
+  cursor: pointer;
+}
+
+.characters{
+  margin-left: 100px;
+}
