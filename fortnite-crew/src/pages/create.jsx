@@ -58,82 +58,82 @@ function Create(){
                     <div className="mini-container">
                         <label>Character:</label>
                         <label>
-                            <input type="radio" name="character" value="1" required/>
+                            <input type="radio" name="character" id="character" value="1" required/>
                             <span className="character"></span>
                             Kenji
                         </label>
                         <label>
-                            <input type="radio" name="character" value="2" required/>
+                            <input type="radio" name="character" id="character" value="2" required/>
                             <span className="character"></span>
                             Recon Specialist
                         </label>
                         <label>
-                            <input type="radio" name="character" value="3" required/>
+                            <input type="radio" name="character" id="character" value="3" required/>
                             <span className="character"></span>
                             Alpine Ace German Male
                         </label>
                         <label>
-                            <input type="radio" name="character" value="4" required/>
+                            <input type="radio" name="character" id="character" value="4" required/>
                             <span className="character"></span>
                             Mogul Master China Female
                         </label>
                         <label>
-                            <input type="radio" name="character" value="5" required/>
+                            <input type="radio" name="character" id="character" value="5" required/>
                             <span className="character"></span>
                             Omega
                         </label>
                         <label>
-                            <input type="radio" name="character" value="6" required/>
+                            <input type="radio" name="character" id="character" value="6" required/>
                             <span className="character"></span>
                             Drift
                         </label>
                         <label>
-                            <input type="radio" name="character" value="7" required/>
+                            <input type="radio" name="character" id="character" value="7" required/>
                             <span className="character"></span>
                             Alpine Ace China Male
                         </label>
                         <label>
-                            <input type="radio" name="character" value="8" required/>
+                            <input type="radio" name="character" id="character" value="8" required/>
                             <span className="character"></span>
                             Thanos
                         </label>
                         <label>
-                            <input type="radio" name="character" value="9" required/>
+                            <input type="radio" name="character" id="character" value="9" required/>
                             <span className="character"></span>
                             Raven
                         </label>
                         <label>
-                            <input type="radio" name="character" value="10" required/>
+                            <input type="radio" name="character" id="character" value="10" required/>
                             <span className="character"></span>
                             DJ Yonder
                         </label>
                         <label>
-                            <input type="radio" name="character" value="11" required/>
+                            <input type="radio" name="character" id="character" value="11" required/>
                             <span className="character"></span>
                             Alpine Ace Korean Male
                         </label>
                         <label>
-                            <input type="radio" name="character" value="12" required/>
+                            <input type="radio" name="character" id="character" value="12" required/>
                             <span className="character"></span>
                             Jack Gourdon
                         </label>
                         <label>
-                            <input type="radio" name="character" value="13" required/>
+                            <input type="radio" name="character" id="character" value="13" required/>
                             <span className="character"></span>
                             Mogul Master German Female
                         </label>
                         <label>
-                            <input type="radio" name="character" value="14" required/>
+                            <input type="radio" name="character" id="character" value="14" required/>
                             <span className="character"></span>
                             Ghoul Trooper
                         </label>
                         <label>
-                            <input type="radio" name="character" value="15" required/>
+                            <input type="radio" name="character" id="character" value="15" required/>
                             <span className="character"></span>
                             Mogul Master Korean Female
                         </label>
                         <label>
-                            <input type="radio" name="character" value="16" required/>
+                            <input type="radio" name="character" id="character" value="16" required/>
                             <span className="character"></span>
                             Zorii Bliss
                         </label>
@@ -141,22 +141,22 @@ function Create(){
                     <div className="mini-container">
                     <label>Attribute:</label>
                         <label>
-                            <input type="radio" name="attribute" value="captain" required/>
+                            <input type="radio" name="attribute" id="role" value="captain" required/>
                             <span className="attribute"></span>
                             Captain
                         </label>
                         <label>
-                            <input type="radio" name="attribute" value="medic" required/>
+                            <input type="radio" name="attribute" id="role" value="medic" required/>
                             <span className="attribute"></span>
                             Medic
                         </label>
                         <label>
-                            <input type="radio" name="attribute" value="attacker" required/>
+                            <input type="radio" name="attribute" id="role" value="attacker" required/>
                             <span className="attribute"></span>
                             Attacker
                         </label>
                         <label>
-                            <input type="radio" name="attribute" value="sharpshooter" required/>
+                            <input type="radio" name="attribute" id="role" value="sharpshooter" required/>
                             <span className="attribute"></span>
                             Sharpshooter
                         </label>
